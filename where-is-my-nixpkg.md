@@ -18,7 +18,7 @@ The package needs to be added to the attribute set in `pkgs/top-level/all-packag
 ```nix
 {
 # ...
-  signage = callPackage ../development/tools/signage { };
+  my-pkg = callPackage ../development/tools/my-pkg { };
 # ...
 }
 ```
