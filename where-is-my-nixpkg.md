@@ -13,7 +13,7 @@ error: attribute 'my-pkg' in selection path 'my-pkg' not found
 
 ## Solution
 
-The package needs to be added to the attribute set in `pkgs/top-level/all-packages.nix` to become visible `nix-build`, like the following:
+The package needs to be added to the attribute set in `pkgs/top-level/all-packages.nix` to become visible to `nix-build`, like the following:
 
 ```nix
 {
