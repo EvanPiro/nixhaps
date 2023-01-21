@@ -1,6 +1,6 @@
 ## Mistake
 
-I've added a flake to `environment.systemPackages` in my nixos `configuration.nix` but am getting a `command not found` when I try to run the exposed package binary in my shell due to specifying the full path to the binary.
+I've added a flake to `environment.systemPackages` in my nixos `configuration.nix` but am getting a `command not found` when I try to run the exposed package binary in my shell due to not specifying the full path to the actual package.
 
 ## Example
 
